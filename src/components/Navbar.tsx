@@ -17,7 +17,7 @@ export function Navbar() {
     return (
         <nav className="fixed w-full bg-white/90 backdrop-blur-md z-50 shadow-sm">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-16">
+                <div className="flex justify-between h-19">
                     {/* Logo */}
                     <div className="flex items-center">
                         <a href="#" className="text-[#018e5c] font-bold text-2xl">
@@ -30,7 +30,7 @@ export function Navbar() {
                         {menuItem.map((item) => (
                             <a
                                 key={item.href}
-                                className="text-gray-700 hover:text-[#018e5c] transition-colors duration-300"
+                                className="text-gray-70 font-semibold hover:text-[#018e5c] transition-colors duration-300"
                                 href={item.href}
                             >
                                 {item.label}
