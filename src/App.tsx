@@ -1,6 +1,7 @@
 import { Hero } from "./components/Hero"
 import { Navbar } from "./components/Navbar"
 import { NewsSection } from "./components/NewsSection"
+import { ProjectSection } from "./components/ProjectSection"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <NewsSection />
+      <ProjectSection />
     </div>
   )
 }

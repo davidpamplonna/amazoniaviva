@@ -1,7 +1,7 @@
 export interface Project {
     id: number;
     title: string;
-    categoria: 'indigenous' | 'reforestaion' | 'wildlife-protection';
+    category: 'indigenous-rights' | 'reforestation' | 'wildlife-protection';
     description: string;
     image: string;
 }
