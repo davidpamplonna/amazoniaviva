@@ -2,6 +2,7 @@ import { Hero } from "./components/Hero"
 import { Navbar } from "./components/Navbar"
 import { NewsSection } from "./components/NewsSection"
 import { ProjectSection } from "./components/ProjectSection"
+import { VideoSection } from "./components/VideoSection"
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <NewsSection />
       <ProjectSection />
+      <VideoSection />
     </div>
   )
 }

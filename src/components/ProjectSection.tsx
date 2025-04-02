@@ -1,6 +1,6 @@
 import { FaLeaf } from "react-icons/fa"
 import { Project } from "../type"
-import { MdShield } from "react-icons/md";
+import { MdOutlineShield } from "react-icons/md";
 import { LuArrowRight, LuUsersRound } from "react-icons/lu";
 
 
@@ -35,7 +35,7 @@ const CategoryIcon = ({ category }: { category: Project['category'] }) => {
         case 'reforestation':
             return <FaLeaf  className="w-6 h-6"/>;
         case 'wildlife-protection':
-            return <MdShield  className="w-6 h-6"/>;
+            return <MdOutlineShield   className="w-6 h-6"/>;
     }
 }
 
@@ -64,7 +64,7 @@ export function ProjectSection() {
                             </div>
                             <div className="p-6">
                                     <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#018e5c] transition-colors duration-500">{project.title}</h3>
-                                    <p className="text-gray-600 mb-4">{project.description}</p>
+                                    <p className="text-gray-600 mb-4 line-clamp-2">{project.description}</p>
                                     <a href="#"
                                     className="flex items-center text-[#018e5c] font-medium group-hover:[#018e5c] transition-colors duration-500"
                                     >Saiba mais
