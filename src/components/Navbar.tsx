@@ -30,7 +30,7 @@ export function Navbar() {
                         {menuItem.map((item) => (
                             <a
                                 key={item.href}
-                                className="text-gray-70 font-semibold hover:text-[#018e5c] transition-colors duration-300"
+                                className="text-gray-70  hover:text-[#018e5c] transition-colors duration-400"
                                 href={item.href}
                             >
                                 {item.label}

@@ -11,8 +11,8 @@ export function EventsBanners() {
       date: "25 de Março, 2024",
       location: "Manaus, AM",
       image:
-        "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
-      color: "#018e5c",
+        "https://images.pexels.com/photos/13722334/pexels-photo-13722334.jpeg",
+      color: "#a54340",
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export function EventsBanners() {
       location: "Belém, PA",
       image:
         "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
-      color: "#a54340",
+      color: "#018e5c",
     },
   ];
 
@@ -31,11 +31,11 @@ export function EventsBanners() {
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
           Próximos Eventos
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
           {events.map((event) => (
             <div
               key={event.id}
-              className="relative h-64 rounded-xl overflow-hidden group"
+              className="relative h-70 rounded-xl overflow-hidden group"
             >
               <img
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
@@ -45,7 +45,7 @@ export function EventsBanners() {
               <div
                 className="absolute inset-0"
                 style={{
-                  background: `linear-gradient(to bottom, ${event.color}00, ${event.color}ee)`,
+                  background: `linear-gradient(to bottom, ${event.color}00, ${event.color}ee 150%)`,
                 }}
               />
               <div className="absolute inset-0 p-6 text-white flex flex-col justify-end">
