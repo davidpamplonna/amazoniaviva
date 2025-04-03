@@ -1,3 +1,4 @@
+import { EventsBanners } from "./components/EventsBanners"
 import { Hero } from "./components/Hero"
 import { Navbar } from "./components/Navbar"
 import { NewsSection } from "./components/NewsSection"
@@ -14,6 +15,7 @@ function App() {
       <NewsSection />
       <ProjectSection />
       <VideoSection />
+      <EventsBanners />
     </div>
   )
 }
