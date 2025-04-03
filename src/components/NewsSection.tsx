@@ -39,8 +39,8 @@ export function NewsSection() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between mb-12">
                     <div className="max-w-2xl">
-                        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Últimas Notícias</h2>
-                        <p className="text-gray-600">Acompanhe as últimas atualizações sobre nossa causa</p>
+                        <h2 className="text-xl md:text-4xl font-bold text-gray-900 mb-2">Últimas Notícias</h2>
+                        <p className="text-gray-600 text-sm md:text-base">Acompanhe as últimas atualizações sobre nossa causa</p>
                     </div>
                     <a href="#" className="bg-[#018e5c]/10 text-[#018e5c] px-6 py-3  rounded-full hover:bg-[#018e5c]/20 transition-colors flex item-center font-medium ">
                         Ver todas

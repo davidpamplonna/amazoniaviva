@@ -49,7 +49,7 @@ export function EventsBanners() {
                 }}
               />
               <div className="absolute inset-0 p-6 text-white flex flex-col justify-end">
-                <h3 className="text-2xl font-bold mb-2">{event.title}</h3>
+                <h3 className="text-xl md:text-2xl font-bold mb-2">{event.title}</h3>
                 <div className="space-y-2">
                   <div className="flex items-center gap-2">
                     <IoCalendarClearOutline size={20} />
@@ -59,7 +59,7 @@ export function EventsBanners() {
                     <LuMapPin size={20} />
                     {event.location}
                   </div>
-                  <button className="mt-4 bg-white text-gray-900 px-6 py-3 rounded-md inline-flex items-center self-start gap-2 hover:bg-gray-100 transition-colors">
+                  <button className="mt-4 bg-white text-gray-900 px-3 py-2 md:px-6 md:py-3 rounded-md inline-flex items-center self-start gap-2 hover:bg-gray-100 transition-colors">
                     <FiUsers size={16} />
                     Inscrever-se
                   </button>
