@@ -43,13 +43,13 @@ const CategoryIcon = ({ category }: { category: Project['category'] }) => {
 export function ProjectSection() {
     
     return (
-        <section className="py-6 bg-gray-50">
+        <section className="py-6 bg-gray-50" >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                     <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-4">Nossos Projetos</h2>
                     <p className=" text-gray-700 text-sm md:text-lg">Conheça as iniciativas que estão transformando a realidade da Amazônia e de seus povos</p>
                 </div>
-                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="fade-up">
                     {projects.map((project) => (
                         <div key={project.id} className="group relative bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300">
                             <div className="aspect-[4/3] overflow-hidden">
@@ -62,7 +62,7 @@ export function ProjectSection() {
                                     <CategoryIcon category={project.category}/>
                                 </div>
                             </div>
-                            <div className="p-6">
+                            <div className="p-6" >
                                     <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#018e5c] transition-colors duration-500">{project.title}</h3>
                                     <p className="text-gray-600 mb-4 line-clamp-2">{project.description}</p>
                                     <a href="#"

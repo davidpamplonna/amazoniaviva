@@ -36,7 +36,7 @@ export function NewsSection() {
 
     return (
         <section className="py-16 bg-white">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" >
                 <div className="flex items-center justify-between mb-12">
                     <div className="max-w-2xl w-[207px] md:w-full">
                         <h2 className="text-2xl md:text-4xl font-bold text-gray-900 mb-2">Últimas Notícias</h2>
@@ -48,7 +48,7 @@ export function NewsSection() {
                         </a>
                     
                 </div>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8" data-aos="fade-up">
                     {latesNews.map((item) => (
                         <article 
                         className="group bg-white rounded-xl shadow-sm hover:shadow-md transition-all overflow-hidden border border-gray-100"

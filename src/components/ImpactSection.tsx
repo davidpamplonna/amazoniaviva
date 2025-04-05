@@ -41,7 +41,7 @@ export function ImpactSection() {
                     <h2 className="text-white font-bold text-3xl md:text-4xl text-center mb-4">Nosso Impacto</h2>
                     <p className="text-md md:text-lg text-center text-white/80">Juntos estamos fazendo a diferença na Amazônia</p>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4" data-aos="flip-up">
                     {impactStats.map((stat, index) => (
                         <div key={index}
                         className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center transform hover:-translate-y-1 transition-all duration-300"

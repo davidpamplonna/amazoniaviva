@@ -11,10 +11,10 @@ export function Hero() {
             </div>
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
                 <div className="max-w-3xl mt-10 md:mt-25">
-                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">Protegendo a Amazônia e seus povos</h1>
-                    <p className="text-lg md:text-2xl text-white/90 mb-8">Junte-se a nós na luta pela preservação da maior floresta tropical do mundo e pelos direitos das comunidades que a habitam</p>
+                    <h1 className="text-4xl md:text-6xl font-bold text-white mb-6" data-aos="fade-right">Protegendo a Amazônia e seus povos</h1>
+                    <p className="text-lg md:text-2xl text-white/90 mb-8" data-aos="fade-left">Junte-se a nós na luta pela preservação da maior floresta tropical do mundo e pelos direitos das comunidades que a habitam</p>
                 </div>
-                <div className="flex flex-col sm:flex-row gap-4">
+                <div className="flex flex-col sm:flex-row gap-4" data-aos="fade-up">
                     <button className="bg-[#018e5c] text-white px-8 py-3 rounded-md hover:bg-[#016d46] flex items-center justify-center">
                     Doe Agora
                         <LuArrowRight className="ml-2 mt-1" size={20} />
