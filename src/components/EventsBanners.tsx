@@ -1,4 +1,3 @@
-import { button, linearGradient } from "motion/react-client";
 import { FiUsers } from "react-icons/fi";
 import { IoCalendarClearOutline } from "react-icons/io5";
 import { LuMapPin } from "react-icons/lu";

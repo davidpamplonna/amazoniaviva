@@ -1,4 +1,3 @@
-import { div } from "motion/react-client"
 import { LuSprout, LuTreePine } from "react-icons/lu"
 import { TbShieldCheck, TbUsers } from "react-icons/tb"
 
