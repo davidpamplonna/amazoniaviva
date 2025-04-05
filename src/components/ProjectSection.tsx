@@ -9,8 +9,8 @@ const projects: Project[] = [
         id: 1,
         title: 'Proteção de Territórios Indígenas',
         category: 'indigenous-rights',
-        description: 'Apoio legal e advocacy para comunidades indígenas na defesa de seus territórios ancestrais.',
-        image: 'https://images.unsplash.com/photo-1551651767-d5ffbdd04b83?auto=format&fit=crop&q=80&w=800'
+        description: 'Apoio legal para comunidades indígenas na defesa de seus territórios ancestrais.',
+        image: 'https://images.pexels.com/photos/20079871/pexels-photo-20079871/free-photo-of-pessoas-em-trajes-tradicionais-com-plumas-caminhando-na-rua-e-tocando-instrumentos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       },
       {
         id: 2,
@@ -24,7 +24,7 @@ const projects: Project[] = [
         title: 'Monitoramento da Biodiversidade',
         category: 'wildlife-protection',
         description: 'Programa de pesquisa e proteção de espécies ameaçadas da Amazônia.',
-        image: 'https://images.unsplash.com/photo-1535338454770-8be927b5a00b?auto=format&fit=crop&q=80&w=800'
+        image: 'https://images.pexels.com/photos/15573637/pexels-photo-15573637/free-photo-of-panorama-vista-paisagem-pessoas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
       }
 ]
 

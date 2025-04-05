@@ -123,8 +123,8 @@ export function Footer() {
                     </div>
                 </div>
                   {/* Copyright */}
-                  <div className="border-t border-gray-700 py-4 mt-10 flex flex-col md:flex-row justify-between items-center space-y-4">
-                        <p className="text-sm text-gray-400">© 2025 AmazoniaViva. Todos os direitos reservados</p>
+                  <div className="border-t border-gray-700 py-4 mt-1 flex flex-col md:flex-row justify-between items-center space-y-4 ">
+                        <p className="text-sm text-gray-400 mt-6">© 2025 AmazoniaViva. Todos os direitos reservados</p>
                     <div className="flex space-x-4 text-sm text-gray-400">
                         <a href="#" className="hover:text-[#01da8c] transition-colors">Política de Privacidade</a>
                         <a href="#" className="hover:text-[#01da8c] transition-colors">Termos de Uso</a>

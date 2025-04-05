@@ -6,7 +6,7 @@ export function Hero() {
         <section className="relative min-h-screen">
             <div 
             className="absolute inset-0 bg-contain bg-no-repeat md:bg-cover bg-center"
-            style={{ backgroundImage: 'url(' }}>
+            style={{ backgroundImage: 'url("https://plus.unsplash.com/premium_photo-1687428554388-395f7f690ddb?q=80&w=2085&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
                 <div className="absolute inset-0 bg-black opacity-40"></div>
             </div>
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">

@@ -11,23 +11,23 @@ export function NewsSection() {
             title: 'Nova área de preservação é criada no coração da Amazônia',
             excerpt: 'Iniciativa protegerá mais de 100 mil hectares de floresta nativa e diversas espécies ameaçadas.',
             date: '2024-03-15',
-            image: 'https://images.unsplash.com/photo-1551651767-d5ffbdd04b83?auto=format&fit=crop&q=80&w=600',
+            image: 'https://images.pexels.com/photos/27038079/pexels-photo-27038079/free-photo-of-natureza-arvore-animais-bichos.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
             category: 'Preservação'
           },
           {
             id: 2,
-            title: 'Comunidade indígena celebra vitória em disputa territorial',
+            title: 'Educação que Atravessa Florestas e Fortalece Culturas',
             excerpt: 'Após anos de luta, território ancestral é finalmente demarcado e reconhecido oficialmente.',
             date: '2024-03-14',
-            image: 'https://images.unsplash.com/photo-1551651767-d5ffbdd04b83?auto=format&fit=crop&q=80&w=600',
-            category: 'Direitos Indígenas'
+            image: 'https://images.pexels.com/photos/3231359/pexels-photo-3231359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+            category: 'Educação'
           },
           {
             id: 3,
             title: 'Projeto de reflorestamento atinge marca histórica',
             excerpt: 'Mais de 1 milhão de árvores plantadas em áreas degradadas da Amazônia.',
             date: '2024-03-13',
-            image: 'https://images.unsplash.com/photo-1536697246787-1f7ae568d89a?auto=format&fit=crop&q=80&w=600',
+            image: 'https://images.pexels.com/photos/19951274/pexels-photo-19951274/free-photo-of-natureza-maos-terra-floresta.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
             category: 'Reflorestamento'
           }
 
