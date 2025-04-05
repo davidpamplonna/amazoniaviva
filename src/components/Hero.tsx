@@ -6,7 +6,7 @@ export function Hero() {
         <section className="relative min-h-[580px] md:min-h-[780px] ">
             <div 
             className="absolute inset-0 bg-no-repeat bg-cover bg-center-center md:bg-center"
-            style={{ backgroundImage: 'url("./../public/banner.png")' }}>
+            style={{ backgroundImage: 'url("/banner.png")' }}>
                 <div className="absolute inset-0 bg-black opacity-45"></div>
             </div>
             <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-16">
