@@ -1,4 +1,6 @@
+import { ContactSection } from "./components/ContactSection"
 import { EventsBanners } from "./components/EventsBanners"
+import { Footer } from "./components/Footer"
 import { Hero } from "./components/Hero"
 import { ImpactSection } from "./components/ImpactSection"
 import { Navbar } from "./components/Navbar"
@@ -20,6 +22,8 @@ function App() {
       <EventsBanners />
       <ImpactSection />
       <NewsLetterSection />
+     <ContactSection />
+     <Footer />
     </div>
   )
 }
